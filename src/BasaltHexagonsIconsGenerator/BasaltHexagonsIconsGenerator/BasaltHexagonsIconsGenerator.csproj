@@ -8,6 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="BasaltHexagons.CommandLine" Version="0.1.30-preview" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.1" />
       <PackageReference Include="Svg" Version="3.4.7" />
     </ItemGroup>
 

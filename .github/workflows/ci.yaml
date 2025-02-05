@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        configuration: [Debug, Release]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .net core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.106
+
+      - name: Build solution - ${{ matrix.configuration }}
+        run: dotnet build --configuration ${{ matrix.configuration }}
+        working-directory: ./src
