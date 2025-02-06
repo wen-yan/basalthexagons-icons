@@ -20,7 +20,7 @@ jobs:
         working-directory: ./src
 
       - name: Generate icons
-        run: dotnet run --configuration Release --project .\BasaltHexagonsIconsGenerator\BasaltHexagonsIconsGenerator.csproj -- --output-directory ../icons
+        run: dotnet run --configuration Release --project ./BasaltHexagonsIconsGenerator/BasaltHexagonsIconsGenerator.csproj -- --output-directory ../icons
         working-directory: ./src
 
       - name: Commit changes
