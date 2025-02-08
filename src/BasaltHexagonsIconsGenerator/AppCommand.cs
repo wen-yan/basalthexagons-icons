@@ -126,7 +126,7 @@ class AppCommand : Command<AppCommandOptions>
 static class Constants
 {
     public const float HexagonSize = 10;
-    public const float HexagonMargin = -0.8f;
+    public const float HexagonMargin = -0.6f;
     public const int SvgWidth = 128;
     public const int SvgHeight = 128;
     public const float CanvasMarginRation = 0.12f;
@@ -145,29 +145,29 @@ static class Constants
 
     private static readonly Color[] ColorfulHexagonColors =
     [
-        Color.FromArgb(0x46, 0x69, 0x46),
-        Color.FromArgb(0x69, 0x3c, 0x2d),
-        Color.FromArgb(0x46, 0x46, 0x2d),
-        Color.FromArgb(0x3c, 0x69, 0x69),
-        Color.FromArgb(0x46, 0x46, 0x69),
-        Color.FromArgb(0x55, 0x46, 0x46),
+        Color.FromArgb(0x3b, 0x4f, 0x4d),
+        Color.FromArgb(0x5a, 0x4d, 0x41),
+        Color.FromArgb(0x4e, 0x4e, 0x4e),
+        Color.FromArgb(0x2b, 0x2b, 0x2b),
+        Color.FromArgb(0x5a, 0x71, 0x6a),
+        Color.FromArgb(0x55, 0x6b, 0x2f),
     ];
 
-    private static readonly Color[] GrayHexagonColors =
-    [
-        Color.FromArgb(0x46, 0x46, 0x46),
-        Color.FromArgb(0x3c, 0x3c, 0x3c),
-        Color.FromArgb(0x46, 0x46, 0x46),
-        Color.FromArgb(0x69, 0x69, 0x69),
-        Color.FromArgb(0x69, 0x69, 0x69),
-        Color.FromArgb(0x55, 0x55, 0x55),
-    ];
+    // private static readonly Color[] GrayHexagonColors =
+    // [
+    //     Color.FromArgb(0x8c, 0x8c, 0x8c),
+    //     Color.FromArgb(0x78, 0x78, 0x78),
+    //     Color.FromArgb(0x8c, 0x8c, 0x8c),
+    //     Color.FromArgb(0xd2, 0xd2, 0xd2),
+    //     Color.FromArgb(0xd2, 0xd2, 0xd2),
+    //     Color.FromArgb(0x55, 0x55, 0x55),
+    // ];
 
     public static readonly Theme[] Themes =
     [
-        new("dark", Color.FromArgb(0x96, 0x96, 0x96), Color.FromArgb(0x2c, 0x2c, 0x2c), ColorfulHexagonColors),
-        new("light", Color.FromArgb(0x2c, 0x2c, 0x2c), Color.FromArgb(0xc2, 0xc2, 0xc2), ColorfulHexagonColors),
-        new("gray", Color.FromArgb(0x2c, 0x2c, 0x2c), Color.FromArgb(0xc2, 0xc2, 0xc2), GrayHexagonColors),
+        // new("dark", Color.FromArgb(0x96, 0x96, 0x96), Color.FromArgb(0x2c, 0x2c, 0x2c), ColorfulHexagonColors),
+        new("light", Color.FromArgb(0x2c, 0x2c, 0x2c), Color.FromArgb(0xd2, 0xd2, 0xd2), ColorfulHexagonColors),
+        // new("gray", Color.FromArgb(0x2c, 0x2c, 0x2c), Color.FromArgb(0xc2, 0xc2, 0xc2), GrayHexagonColors),
     ];
 
     public static readonly int[] PngSizes = [32, 64, 96, 128, 256];

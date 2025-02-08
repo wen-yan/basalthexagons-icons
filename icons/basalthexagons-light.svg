@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="128" height="128" viewBox="-2.7074852, -6.405186, 60.61497, 60.61497">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="128" height="128" viewBox="-2.5554848, -6.33357, 61.51097, 61.51097">
   <defs>
     <polygon points="8.660254,5 6.123234E-16,10 -8.660254,5 -8.660254,-5 -1.83697E-15,-10 8.660254,-5" id="base" />
   </defs>
-  <rect x="-2.252873" y="-5.950573" width="59.70575" height="59.70575" rx="3.030749" stroke-width="0.9092246" style="fill:#C2C2C2;stroke:#2C2C2C;" />
-  <use xlink:href="#base" x="9.2" y="7.967433" style="fill:#466946;" />
-  <use xlink:href="#base" x="27.6" y="7.967433" style="fill:#693C2D;" />
-  <use xlink:href="#base" x="46" y="7.967433" style="fill:#46462D;" />
-  <use xlink:href="#base" x="18.4" y="23.9023" style="fill:#3C6969;" />
-  <use xlink:href="#base" x="36.8" y="23.9023" style="fill:#464669;" />
-  <use xlink:href="#base" x="9.2" y="39.83717" style="fill:#554646;" />
+  <rect x="-2.094152" y="-5.872238" width="60.58831" height="60.58831" rx="3.075549" stroke-width="0.9226645" style="fill:#D2D2D2;stroke:#2C2C2C;" />
+  <use xlink:href="#base" x="9.4" y="8.140638" style="fill:#3B4F4D;" />
+  <use xlink:href="#base" x="28.2" y="8.140638" style="fill:#5A4D41;" />
+  <use xlink:href="#base" x="47" y="8.140638" style="fill:#4E4E4E;" />
+  <use xlink:href="#base" x="18.8" y="24.42192" style="fill:#2B2B2B;" />
+  <use xlink:href="#base" x="37.6" y="24.42192" style="fill:#5A716A;" />
+  <use xlink:href="#base" x="9.4" y="40.70319" style="fill:#556B2F;" />
 </svg>
